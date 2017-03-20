@@ -1,0 +1,44 @@
+{
+  "name": "lru-cache-mongodb",
+  "version": "0.0.1",
+  "description": "An LRU cache backed by mongodb.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaaiatinc/lru-cache-mongodb.git"
+  },
+  "author": {
+    "name": "Ali Ismael"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gaaiatinc/lru-cache-mongodb.git"
+  },
+  "homepage": "https://github.com/gaaiatinc/lru-cache-mongodb",
+  "keywords": [
+    "mongodb",
+    "lru",
+    "cache"
+  ],
+  "peerDependencies": {
+    "lru-cache-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.0",
+    "eslint-config-standard": "^7.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "gulp": "^3.9.1",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {}
+}
