@@ -2,7 +2,7 @@
   "name": "lru-cache-mongodb",
   "version": "0.0.1",
   "description": "An LRU cache backed by mongodb.",
-  "main": "./lib/index.js",
+  "main": "./lib/abstract_db_lru_cache.js",
   "scripts": {
     "test": "mocha test"
   },
@@ -40,5 +40,7 @@
     "gulp": "^3.9.1",
     "mocha": "^3.2.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "q": "^1.4.1"
+  }
 }
