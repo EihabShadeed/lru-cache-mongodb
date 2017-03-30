@@ -1,6 +1,6 @@
 {
   "name": "lru-cache-mongodb",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "An LRU cache backed by mongodb.",
   "main": "./lib/abstract_db_lru_cache.js",
   "scripts": {
